@@ -185,6 +185,12 @@ h3 { font-size: 16px; font-weight: 600; }
 .card p + p,
 .card ul,
 .card .meta { margin-top: 12px; }
+.option-title {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--tx);
+}
 .callout {
   padding: 18px 20px;
   border-radius: var(--r);
@@ -211,6 +217,24 @@ h3 { font-size: 16px; font-weight: 600; }
   color: var(--mut);
 }
 .checklist li::marker { color: var(--acl); }
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 18px;
+}
+.post-card {
+  padding: 22px;
+  border-radius: var(--r);
+  border: 1px solid var(--bd);
+  background: var(--sf);
+}
+.copy {
+  margin: 12px 0 0;
+  white-space: pre-wrap;
+  font: inherit;
+  color: var(--dim);
+}
 .footer {
   padding: 34px 0 56px;
   color: var(--mut);
@@ -220,7 +244,8 @@ h3 { font-size: 16px; font-weight: 600; }
 @media (max-width: 900px) {
   .stats,
   .grid.two,
-  .grid.three {
+  .grid.three,
+  .post-grid {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -230,7 +255,8 @@ h3 { font-size: 16px; font-weight: 600; }
   .sub { font-size: 16px; }
   .stats,
   .grid.two,
-  .grid.three {
+  .grid.three,
+  .post-grid {
     grid-template-columns: 1fr;
   }
   .nav-inner {
