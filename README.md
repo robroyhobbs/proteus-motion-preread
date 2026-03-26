@@ -1,6 +1,6 @@
-# Proteus Motion Pre-read
+# Proteus Motion Funnel Discussion Page
 
-A lightweight static GitHub Pages site for sharing a short pre-read with Sam Miller ahead of a conversation about Proteus Motion.
+A lightweight static GitHub Pages site for discussing funnel growth, proof packaging, and a day 0-30 plan with the Proteus team.
 
 ## Local preview
 
